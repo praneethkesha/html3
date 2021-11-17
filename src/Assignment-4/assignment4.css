@@ -5,3 +5,109 @@
 width: 100%;
 height: 100%;
 }
+body{
+    font-family: 'raleway', sans-serif;
+}
+
+/* ---------------- Header part ------------------ */
+header{
+    background: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 0 25px;
+}
+header h1{
+    float: left;
+    text-indent: -9999px;
+    background: url('../images/dog-icon.svg') no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+}
+header nav{
+    float: right;
+}
+header li{
+    display: inline-block;
+    padding: 17px 10px;
+}
+nav li:hover{
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------------- Hero part ------------------- */
+#hero{
+    background: url('../images/park.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+#hero img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: #3F8DA7 solid;
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+/* -------   these properties for anchor tags all around the page have same styles, so we have used "a" Selector instead of "id" Hero ------- */
+.btn{
+    background: white;
+    border: 3px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 250px;
+}
+.btn:hover{
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+}
+
+/* ---------------- Article part ------------------- */
+.three-col{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 20px;
+}
+.three-col img{
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 200px;
+    width: 200px;
+    margin: 25px 15px;
+}
+.three-col p{
+    margin-bottom: 40px;
+}
+
+/* ------------------ Footer part ------------------- */
+footer{
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul{
+    margin: 40px 0;
+}
+footer li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color:black;
+}
